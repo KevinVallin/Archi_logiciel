@@ -1,3 +1,5 @@
+// Exercice SOLID (O)
+
 class Boisson {
     name="EAU";calories=0;
 
@@ -51,3 +53,36 @@ class Boisson {
     }
 
   }
+
+
+
+// Exercice SOLID (I)
+
+public interface ImprimanteMultifonction {
+ void Imprimer(String content);
+ }
+
+
+class ImprimanteSuperChere implements ImprimanteMultifonction {
+ public void Imprimer(String content) {
+   System.out.println("J'ai imprimé !");
+ }
+ public void Scanner(String content) {
+   System.out.println("J'ai scanné !");
+ }
+ public void Faxer(String content) {
+   System.out.println("J'ai faxé !");
+ }
+ public void ImprimerRectoVerso(String content) {
+   System.out.println("J'ai imprimé recto-verso !");
+ }
+}
+
+
+class ImprimantePasChere implements ImprimanteMultifonction {
+
+
+ public void Imprimer(String content) {
+   System.out.println("J'ai imprimé !");
+ }
+}
