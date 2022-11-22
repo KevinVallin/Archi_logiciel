@@ -1,4 +1,5 @@
-# Archi_logiciel
+# Rendu Cours d'Architecture Logicielle
+
 ## Exercices réalisées par Corentin L. , Melanie T. , Kévin V.
 
 ### Exercice diagramme UML et C4
