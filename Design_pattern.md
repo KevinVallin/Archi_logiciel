@@ -33,7 +33,7 @@ class Singleton {
 
 ![image](https://user-images.githubusercontent.com/57954853/203750560-12e3211b-5dd6-46de-a66a-c2977273f263.png)
 
-### observateur
+### Exercice Observateur
 
 ![image](https://user-images.githubusercontent.com/57954853/203797766-db3fcb73-8274-497f-b62b-5397528b92dd.png)
 
