@@ -1,4 +1,4 @@
-# Rendu 1 Cours d'Architecture Logicielle
+# Rendu Cours d'Architecture Logicielle - Exercices Design Pattern
 
 ## Exercices réalisées par Corentin L. , Melanie T. , Kévin V.
 
