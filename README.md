@@ -4,8 +4,8 @@
 
 ### Exercices diagramme UML, Modélisation C4 et Principes SOLID
 
-[Rendu Design Pattern](#ExoDesignPattern)
+[Rendu UML, C4 & Principes SOLID](https://github.com/KevinVallin/Archi_logiciel/blob/main/UML_C4_Principes_SOLID.md)
 
 ### Exercices Design Patern
 
-**https://github.com/KevinVallin/Archi_logiciel/blob/main/Design_pattern.md**
+[Rendu Design Pattern](https://github.com/KevinVallin/Archi_logiciel/blob/main/Design_pattern.md)
