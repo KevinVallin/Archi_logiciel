@@ -35,5 +35,6 @@ class Singleton {
 
 ### Exercice Observateur
 
-![image](https://user-images.githubusercontent.com/57954853/203797766-db3fcb73-8274-497f-b62b-5397528b92dd.png)
+![image](https://user-images.githubusercontent.com/57954853/203807929-e355bd82-5e74-4e3b-bbd7-f6dfc694bd2e.png)
+
 
