@@ -37,4 +37,7 @@ class Singleton {
 
 ![image](https://user-images.githubusercontent.com/57954853/203807929-e355bd82-5e74-4e3b-bbd7-f6dfc694bd2e.png)
 
+### Exercice Strategie
+
+![image](https://user-images.githubusercontent.com/57954853/203822952-8a697963-dd65-4cc8-9bab-6ca52208be4d.png)
 
