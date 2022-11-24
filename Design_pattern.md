@@ -2,7 +2,7 @@
 
 ## Exercices réalisées par Corentin L. , Melanie T. , Kévin V.
 
-### Singleton
+### Exercice Singleton
 
 ```java
 
@@ -28,3 +28,7 @@ class Singleton {
 }
 
 ```
+
+### Exercice Factory
+
+![image](https://user-images.githubusercontent.com/57954853/203750560-12e3211b-5dd6-46de-a66a-c2977273f263.png)
