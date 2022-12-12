@@ -41,3 +41,64 @@ class Singleton {
 
 ![image](https://user-images.githubusercontent.com/57954853/203822952-8a697963-dd65-4cc8-9bab-6ca52208be4d.png)
 
+### Exercice Builder
+
+```java
+class Burger {
+    private final int nbBun;
+    private final int nbSalad;
+    private final int nbTomato;
+    private final int nbMeat;
+    private final int nbPickles;
+    private final int nbOnions;
+
+    public Burger(BurgerBuilder builder) {
+        this.nbBun = builder.nbBun;
+        this.nbSalad = builder.nbSalad;
+        this.nbTomato = builder.nbTomato;
+        this.nbMeat = builder.nbMeat;
+        this.nbPickles = builder.nbPickles;
+        this.nbOnions = builder.nbOnions;
+    }
+    public String toString() {
+        return "Burger : "+this.nbBun+" buns, "+this.nbSalad+" salad(s), "+this.nbTomato+" tomato(es), "+this.nbMeat+" piece(s) of meat, "+this.nbOnions+" onion(s), "+this.nbPickles+" pickle(s)";
+    }
+
+    public static class BurgerBuilder {
+        public static int nbBun;
+        public static int nbSalad;
+        public static int nbTomato;
+        public static int nbMeat;
+        public static int nbPickles;
+        public static int nbOnions;
+
+        public BurgerBuilder() {
+            this.nbBun = 2;
+        }
+        public BurgerBuilder withSalad(int nbSalad) {
+            this.nbSalad = nbSalad;
+            return this;
+        }
+        public BurgerBuilder withTomato(int nbTomato) {
+            this.nbTomato = nbTomato;
+            return this;
+        }
+        public BurgerBuilder withMeal(int nbMeat) {
+            this.nbMeat = nbMeat;
+            return this;
+        }
+        public BurgerBuilder withPickles(int nbPickles) {
+            this.nbPickles = nbPickles;
+            return this;
+        }
+        public BurgerBuilder withOnion(int nbOnions) {
+            this.nbOnions = nbOnions;
+            return this;
+        }
+        public Burger build() {
+            Burger burger = new Burger(this);
+            return burger;
+        }
+    }
+}```
+
