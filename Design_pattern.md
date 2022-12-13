@@ -103,3 +103,8 @@ class Burger {
 }
 ```
 
+### Exercice Command
+
+<img width="826" alt="image" src="https://user-images.githubusercontent.com/72194040/207277176-1e19ed51-c5dc-4f58-b6dc-6249ac55dcdf.png">
+
+
